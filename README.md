@@ -17,3 +17,5 @@ prediction of resonance frequency, deflection, and voltage. The models showed a 
 accuracy for frequency and voltage (R² ≈ 0.97–0.99), while XGBoost was significantly better for 
 deflection. Chained predictions demonstrated good agreement with ANSYS results, thereby justifying 
 the feasibility of ML-based surrogate modelling in the design optimization of PEH. 
+
+Link of the App- https://cantileverbeam.streamlit.app/
