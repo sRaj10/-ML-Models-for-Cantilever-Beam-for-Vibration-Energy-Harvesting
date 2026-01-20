@@ -19,7 +19,7 @@ st.caption("Predict Resonance Frequency, Deflection, and Voltage using Random Fo
 # -----------------------------
 # ABOUT SECTION (FROM PDF)
 # -----------------------------
-with st.expander("📘 About this Project (Read first)", expanded=True):
+with st.expander(" About this Project (Read first)", expanded=True):
 
     # Create 2 columns
     left_col, right_col = st.columns([3, 1])  # text larger, image smaller
@@ -47,9 +47,9 @@ ANSYS simulation is accurate but **time-consuming** when exploring many combinat
 To solve this:
 - You generated **310 datasets** by parametric study
 - Trained ML models to predict:
-  ✅ Resonance Frequency  
-  ✅ Deflection  
-  ✅ Voltage  
+   Resonance Frequency  
+   Deflection  
+   Voltage  
 
 The report shows that ML achieves high prediction accuracy:
 - Frequency & Voltage: **R² ≈ 0.97–0.99**
@@ -289,3 +289,4 @@ if train_button:
         "Tip: Use values inside dataset range for best accuracy. "
         "If you input extreme values beyond dataset, ML may give unreliable results."
     )
+
